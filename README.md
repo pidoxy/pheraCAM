@@ -1,65 +1,33 @@
-# PheraCam
+# PheraCAM
 
-[live demo](https://www.youtube.com/watch?v=bUmzASxRi6E)
+A face-registration and camera-monitoring prototype built by **Joy, Sarah and Pidoxy** for HackLab Nigeria 2022. Our team placed **first runner-up**.
 
-## Problem Statement
-    The insecurity in Nigeria is increasing exponentially with each passing day.
-    Insecurity and terrorism have been a major challenge for the Nigerians and 
-    the government lately, each of which leads to the loss of properties and the 
-    destruction of properties. Lack of working systems has led to high crime rate 
-    without penalty for crimes ,there are even cases of the wrong individual 
-    accused for crimes they did not commit. 
+[Demo video](https://www.youtube.com/watch?v=bUmzASxRi6E) · [Figma designs](https://www.figma.com/file/rvSBK8LCxLlWcfIAJjv2kb/pheraCAM?node-id=267%3A705)
 
-    Which brings us to the big question
+## What we explored
 
-    How might we us solve Insecurity?
+The project explored a camera-to-dashboard workflow: capture an image, compare a face against registered identities and notify a user when a face is unregistered.
 
+An unregistered face means there is no match in the registered set. It does not establish that a person is a threat. This was a hackathon prototype; the repository does not establish production reliability or crime-prevention outcomes.
 
-## Concept
+## Workflow
 
-Our concept is based on 
+1. Register identities through the proposed application.
+2. Capture camera input.
+3. Process the image and compare it with registered faces.
+4. Surface the result in a web interface for human review.
 
-    * THEME: Accelerating Artificial Intelligence & big data through edge computing <img width="1440" alt="Screenshot 2022-06-11 at 20 42 16" src="https://user-images.githubusercontent.com/56538561/173213046-5249e165-b28b-4a21-868d-5cc202f365e6.png">
+The hackathon theme was AI and big data through edge computing. The concept combined camera input, image processing and a cloud-connected interface; this repository should not be read as evidence of a fully deployed edge inference system.
 
-and
+## Project materials
 
-    * SUB THEME: Internet of things at the edge
+The documented stack includes **React, Python, Azure and Netlify**, with interface designs in Figma. The screenshots and video below preserve the original demonstration.
 
-### Our Solution
+## Team
 
-PheraCAM is an AI-Based Security and protection System that uses
-facial recognition and edge computing to alert you when
-an unregistered face is detected, causing you to make 
-necessary actions when your property is pose to a threat.
-
-Everyone wants to be secured or let’s say have some sort
-of security including our users.
-Our users build wealth to be able to have some level of 
-security and we are using this product to give our users 
-by exploring the effective use of face recognition in our day
-to day to protect your property against theft and crime.
-
-Hence, we can make our users sleep better at night. 
-
-
-## How The Solution Works
-
-A basic flow is our cameras(sensors) pick up raw data and transact with the cloud 
-for edge speed processing and then return data to the web app where the user can 
-access
-
-## Tech Stack
-* Figma: https://www.figma.com/file/rvSBK8LCxLlWcfIAJjv2kb/pheraCAM?node-id=267%3A705 
-* React
-* Python
-* Azure
-* Netlify
-
-## Team Members
-
-* Joy
-* Sarah
-* Pidoxy
+- Joy
+- Sarah
+- Emmanuel Idoko (Pidoxy)
 
 ## Demo
 
